@@ -40,9 +40,9 @@ console.log('myPassWithQuerySelector', myPassWithQuerySelector, typeof myPassWit
 console.log(myPassWithQuerySelector.innerHTML);
 
 // Creo la variabile per il testo + la password
-const initialText = 'La tua pwd é ';
+const initialText = 'La tua pwd é: ';
 const password = myName + mySurname + myFavouriteColor + myNumber;
-const password2 = `${myName}${mySurname}${myFavoriteColor}${myNumber}`;
+const password2 = `${myName}${mySurname}${myFavouriteColor}${myNumber}`;
 
 //Scrivo il contenuto HTML del tag
 myPassWithQuerySelector.innerHTML = initialText + password;
